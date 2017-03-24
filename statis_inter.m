@@ -70,7 +70,7 @@ disp('***************************************');
 % Verification des matrices et definition des parametres par default
 if ~exist('X','var') || isempty(X)
     error('[STATIS] You must provide a matrix X');
-else:
+else
     disp('----------------------------');
     disp('-- Parametres par default --');
     disp('----------------------------');
